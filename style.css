@@ -43,6 +43,7 @@ h1{
 }
 
 .price{
+    width: 90%;
     background-color: hsl(248, 32%, 49%);
     color: #efefef;
     padding: 15px 20px;
@@ -94,4 +95,74 @@ form p{
 
 form p span{
     color:hsl(0, 100%, 74%)
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.error{
+    border: 2px solid hsl(0, 100%, 74%);
+    background: url('./images/icon-error.svg') no-repeat;
+    background-position: 95% 50%;
+}
+
+.success{
+    border: 2px solid hsl(154, 59%, 51%);
+}
+
+.error-text{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: auto;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: hsl(0, 100%, 74%);
+}
+
+footer{
+    color: #efefef;
+}
+
+footer a {
+    color: hsl(248, 32%, 49%);
+}
+
+footer a:hover{
+    color: hsl(154, 59%, 51%);
+}
+
+@media (max-width: 768px){
+    main{
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: center;
+        background: url('./images/bg-intro-mobile.png');
+        background-color: hsl(0, 100%, 74%);
+    }
+
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .learn{
+        text-align: center;
+        padding: 40px 0px 60px;
+    }
+    
+    form p{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+    .head{
+        padding: 15px 60px;
+    }
 }
