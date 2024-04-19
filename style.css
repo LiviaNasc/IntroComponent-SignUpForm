@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-size: cover;
+    font-size: 16px;
+}
+
+section{
+    max-width: 100%;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 160px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 25px;
+    line-height: 56px;
+}
+
+.learn{
+    color: #fff;
+}
+
+.learn p{
+    line-height: 25px;
+}
+
+.price{
+    background-color: hsl(248, 32%, 49%);
+    color: #efefef;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.price span{
+    color: #fff;
+    font-weight: 600;
+}
+
+#form{
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    padding: 17px 25px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+button{
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    font-size: 16px;
+}
+
+form p{
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+    margin: auto;
+}
+
+form p span{
+    color:hsl(0, 100%, 74%)
+}
